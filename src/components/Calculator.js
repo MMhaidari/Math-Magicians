@@ -46,10 +46,9 @@ const CalculaorUI = () => {
 
   return (
     <div>
-      <h1 className="calculator-header">Let&apos;s Do Some Math!</h1>
       <div className="app-container">
         <div>
-          .
+          <h1 className="calculator-header">Let&apos;s Do Some Math!</h1>
         </div>
         <div className="calculator">
           <div className="display">

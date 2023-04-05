@@ -1,12 +1,14 @@
 .app-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  margin-top: 12vh;
 }
 
 .calculator {
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1), 0 0.6rem 0.6rem rgba(0, 0, 0, 0.1);
   width: 45rem;
   border: none;
+  margin-top: 13rem;
 }
 
 .display {
@@ -79,11 +81,9 @@
 }
 
 .calculator-header {
-  display: inline-block;
-  margin-top: 15vh;
+  display: inline;
   padding: 2.8rem;
-  margin-bottom: 3rem;
   font-size: 5rem;
   color: #c4711e;
-  box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
+  box-shadow: rgba(60, 64, 67, 0.3) 0 1px 2px 0, rgba(60, 64, 67, 0.15) 0 2px 6px 2px;
 }
