@@ -9,9 +9,7 @@ const obj = {
 };
 
 function Calculator() {
-  return (
-    <CalculaorUI />
-  );
+  return <CalculaorUI />;
 }
 
 const CalculaorUI = () => {
@@ -25,25 +23,44 @@ const CalculaorUI = () => {
   const operators = ['=', '+', '-', 'x', '÷'];
 
   const numbersBtn = numbers.map((number) => (
-    <button className="btn" key={number} type="button" onClick={onClickHandler}>{number}</button>
+    <button
+      className="btn"
+      key={number}
+      type="button"
+      onClick={onClickHandler}
+    >
+      {number}
+    </button>
   ));
 
   const operatorBtn = operators.map((operator) => (
-    <button className="btn" key={operator} type="button" onClick={onClickHandler}>{operator}</button>
+    <button
+      className="btn"
+      key={operator}
+      type="button"
+      onClick={onClickHandler}
+    >
+      {operator}
+    </button>
   ));
 
   return (
-    <div className="app-container">
-      <div className="calculator">
-        <div className="display">
-          {vaule.total}
-          {vaule.operation}
-          {vaule.next}
-
+    <div>
+      <h1 className="calculator-header">Let&apos;s Do Some Math!</h1>
+      <div className="app-container">
+        <div>
+          .
         </div>
-        <div className="operator-numbers">
-          <div className="digits">{numbersBtn}</div>
-          <div className="operators">{operatorBtn}</div>
+        <div className="calculator">
+          <div className="display">
+            {vaule.total}
+            {vaule.operation}
+            {vaule.next}
+          </div>
+          <div className="operator-numbers">
+            <div className="digits">{numbersBtn}</div>
+            <div className="operators">{operatorBtn}</div>
+          </div>
         </div>
       </div>
     </div>

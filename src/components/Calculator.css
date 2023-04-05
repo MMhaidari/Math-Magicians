@@ -1,12 +1,11 @@
 .app-container {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .calculator {
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1), 0 0.6rem 0.6rem rgba(0, 0, 0, 0.1);
-  width: 40rem;
-  margin-top: 25vh;
+  width: 45rem;
   border: none;
 }
 
@@ -77,4 +76,14 @@
 .digits button:nth-child(13) {
   width: calc(66.66% - 0.2rem);
   margin-right: 0;
+}
+
+.calculator-header {
+  display: inline-block;
+  margin-top: 15vh;
+  padding: 2.8rem;
+  margin-bottom: 3rem;
+  font-size: 5rem;
+  color: #c4711e;
+  box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
 }
