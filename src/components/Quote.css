@@ -11,8 +11,10 @@
   font-weight: bold;
 }
 
-.loading,
-.error {
-  text-align: center;
-  margin-top: 6rem;
+.show {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30vh;
 }

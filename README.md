@@ -6,7 +6,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Presentation](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -54,14 +53,6 @@
 - **View Calculator on Calculator page**
 - **Heme page consist of a welcome message**
 - **Qutoe section which renders random quotes**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> View project Demo here:
-
-- [coming soon]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -1,0 +1,56 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  margin: 0 auto;
+  color: #222;
+  max-width: 110rem;
+  margin-top: 8rem;
+}
+
+.home-btn {
+  display: flex;
+  gap: 3rem;
+}
+
+.btns {
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  font-weight: 600;
+}
+
+.btns:hover {
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.btns:active {
+  box-shadow: none;
+}
+
+.calcultor-btn {
+  background-color: #f28c28;
+  color: #fff;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+
+.calcultor-btn:hover {
+  background-color: #ce7722;
+}
+
+.quote-btn {
+  border: none;
+  background-color: transparent;
+  outline: 0.1rem solid #f28c28;
+}
+
+.quote-btn:hover {
+  background-color: #f7b26e;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  color: #fff;
+}
+
+.quote-btn:active {
+  box-shadow: none;
+}
