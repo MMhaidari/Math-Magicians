@@ -58,7 +58,7 @@
 
 ## 💻 live demo <a name="live-demo"></a>
 
-<a href="https://math-magician-f018.onrender.com">Click Here</a>
+<a href="https://math-magician-app-c6aw.onrender.com/">Click Here</a>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
